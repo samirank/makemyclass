@@ -1791,6 +1791,8 @@ fieldset[disabled] .s-btn {
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  font-size: 30px;
+    font-family: Playfair Display, serif !important;
 }
 
 .s-header-v2__logo-link:focus, .s-header-v2__logo-link:hover {
