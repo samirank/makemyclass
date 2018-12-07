@@ -2375,3 +2375,16 @@ fieldset[disabled] .s-btn {
 .s-swiper__pagination-v1--dark .swiper-pagination-bullet-active {
   background: #13b1cd;
 }
+
+.header-illustration{
+  background-image: url(../img/exam.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  /*width: 100%;*/
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
