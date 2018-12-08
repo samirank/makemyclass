@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+	.chat{
+		display: flex;
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: absolute;
+		font-size: 1em;
+	}
+	.chat1 {	
+		padding-right: 41px;
+		padding-top: 36px;
+	}
+}

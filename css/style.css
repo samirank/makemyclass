@@ -2386,6 +2386,10 @@
 section{
   position: relative;
 }
+
+.s-header-v2__navbar{
+  border-bottom: unset;
+}
 .header-illustration{
   background-image: url(../img/exam.svg);
   background-size: contain;
@@ -2398,17 +2402,16 @@ section{
   display: flex;
   align-items: center;
 }
+.chat-container{
+  position: relative;
+}
 
 .chat{
   display: flex;
-  padding: 5px;
-  padding-right: 60px;
-  background-size: contain: ;
+  background-size: contain;
   background-repeat: no-repeat;
-  min-height: 150px;
-  min-width: 200px;
-  /*padding-top: 30px: */
-  /*position: absolute; */
+  position: absolute;
+  font-size: 0.5em;
 }
 .chat-text{
   margin: auto;
@@ -2416,8 +2419,27 @@ section{
   font-size: 1.1em;
   text-align: center;
 }
-.chat1{
+.chat1 {
   background-image: url(../img/chat1.svg);
   left: 0;
-  top: 20px;
+  top: -66px;
+  height: 28%;
+  width: 22%;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.chat2 {
+  background-image: url(../img/chat2.svg);
+  right: -0px;
+  top: -66px;
+  height: 28%;
+  width: 22%;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  padding-right: 20px;
+  padding-top: 9px;
 }
